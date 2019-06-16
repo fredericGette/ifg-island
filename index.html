@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<!--https://gamefaqs.gamespot.com/pc/562681-the-secret-of-monkey-island/faqs/23891-->
+<!--https://www.gamesradar.com/cheats/18136/-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+
+  <title>ifg test</title>
+  <meta name="description" content="ifg test">
+
+  <!-- See https://goo.gl/OOhYW5 -->
+  <link rel="manifest" href="/manifest.json">
+
+  <script type="module" src="/src/polymer-3-test-app/main.js" crossorigin></script>
+
+</head>
+
+<body style="height: 100vh; margin: 0;">
+  <ifg-screen>
+    <ifg-history slot="history"> 
+    </ifg-history>
+    <ifg-current-location slot="story">
+      <ifg-description>
+        You're standing at the Lookout Point - an overlook located on top of the highest point of
+        Mêlée Island.
+        <p>
+          An old man is watching the sea...
+        </p>
+      </ifg-description>
+      <ifg-dialogue>
+        <ifg-you>
+          Hi!
+        </ifg-you>
+        <ifg-you>
+          My name's Guybrush Threepwood, and I want to be a pirate!
+        </ifg-you>
+        <ifg-people name="OldMan">
+          Yikes!
+        </ifg-people>
+        <ifg-people name="OldMan">
+          Don't sneak up on me like that!
+        </ifg-people>
+        <ifg-you>
+          Er... I'm over this way.
+        </ifg-you>
+        <ifg-people name="OldMan">
+          Ah! Well, then, Triftweed--
+        </ifg-people>
+        <ifg-you>
+          THREEPWOOD.
+        </ifg-you>
+        <ifg-you>
+          Guybrush THREEPWOOD.
+        </ifg-you>
+        <ifg-people name="OldMan">
+          I see. So, you want to be a pirate, eh?
+        </ifg-people>
+        <ifg-people name="OldMan">
+          You look more like a flooring inspector.
+        </ifg-people>
+        <ifg-people name="OldMan">
+          But if you're serious about pirating, go talk to the pirate leaders.
+        </ifg-people>
+        <ifg-people name="OldMan">
+          You'll find them in the Scumm Bar near the dock.
+        </ifg-people>
+        <ifg-you>
+          Gosh, thanks! I'll do that!
+        </ifg-you>
+        <ifg-you>
+          Bye, now. I'm off to seek my fortune.
+        </ifg-you>
+        <ifg-people name="OldMan">
+          Good luck.
+        </ifg-people>
+      </ifg-dialogue>
+      <ifg-description>
+        From this overlook, you can see the whole island and its surrounding.
+        Three paths start from where you are.
+        <p>
+          The first goes down the cliff, to the dock next to the village.
+        </p>
+        <p>
+          The second passes near a deep forest and a clearing, after that it seems to finish at
+          another little island.
+        </p>
+        <p>
+          And the last one goes first through a bridge, then an ever-glowing area and terminates at
+          a house standing on the other side of the island.
+        </p>
+      </ifg-description>
+    </ifg-current-location>
+    <ifg-actions name="Actions" slot="actions">
+      <ifg-actions name="Dock" display="The dock">
+        <ifg-go to="Dock" executed-text="You go to the dock.">Go to the dock</ifg-go>
+      </ifg-actions>
+      <ifg-actions name="Village" display="The village">
+        <ifg-go to="Village" executed-text="You go to the village.">Go to the village</ifg-go>
+      </ifg-actions>
+      <ifg-actions name="Forest" display="The deep forest">
+        <ifg-go to="Forest" executed-text="You go to the deep forest.">Go to the deep forest</ifg-go>
+      </ifg-actions>
+      <ifg-actions name="Clearing" display="The clearing">
+        <ifg-go to="Clearing" executed-text="You go to the clearing.">Go to the clearing</ifg-go>
+      </ifg-actions>
+      <ifg-actions name="HookIsland" display="The little island">
+        <ifg-go to="HookIsland" executed-text="You go to the little island.">Go to the little island</ifg-go>
+      </ifg-actions>
+      <ifg-actions name="Bridge" display="The bridge">
+        <ifg-go to="Bridge" executed-text="You go to the bridge.">Go to the bridge</ifg-go>
+      </ifg-actions>
+      <ifg-actions name="StanPreviouslyOwnedVessels" display="The ever-glowing area">
+        <ifg-go to="StanPreviouslyOwnedVessels" executed-text="You go to the ever-glowing area.">Go to the ever-glowing area</ifg-go>
+      </ifg-actions>
+      <ifg-actions name="CaptainSmirkHouse" display="The house on the other side of the island">
+        <ifg-go to="CaptainSmirkHouse" executed-text="You go to the house on the other side of the island.">Go to the house on the other side of the island</ifg-go>
+      </ifg-actions>
+    </ifg-actions>
+  </ifg-screen>
+</body>
+
+</html>

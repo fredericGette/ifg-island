@@ -12,14 +12,14 @@ export let dock = {
     `,
     actions: {
         LookoutPoint: {
-            name: `The Lookout Point`,
+            text: `The Lookout Point`,
             Go: {
                 text: `Go to the Lookout Point`,
                 executedText: `You go the Lookout Point.`
             }
         },
         ScummBar: {
-            name: `The Scumm Bar`,
+            text: `The Scumm Bar`,
             Go: {
                 text: `Go into the 'SCUMM BAR'`,
                 executedText: `You enter into the 'SCUMM BAR'.`
@@ -27,7 +27,7 @@ export let dock = {
         },
         Village:
         {
-            name: `The village`,
+            text: `The village`,
             Go: {
                 text: `Go to the village`,
                 executedText: `You go to the village`

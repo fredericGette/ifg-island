@@ -11,7 +11,7 @@ export let scummBarKitchenOutside = {
     `,
     actions: {
         ScummBarKitchen: {
-            name: 'The kitchen',
+            text: 'The kitchen',
             Go: {
                 text: `Go back to the kitchen`,
                 executedText: `You go to the kitchen of the 'SCUMM BAR'.`

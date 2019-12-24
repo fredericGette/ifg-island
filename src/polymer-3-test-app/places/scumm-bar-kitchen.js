@@ -8,14 +8,14 @@ export let scummBarKitchen = {
     `,
     actions: {
         ScummBarRearRoom: {
-            name: `The rear room`,
+            text: `The rear room`,
             Go: {
                 text: `Go back to the rear room`,
                 executedText: `You go to the rear room of the 'SCUMM BAR'.`
             }
         },
         ScummBarKitchenOutside: {
-            name: `The outside`,
+            text: `The outside`,
             Go: {
                 text: `Go to the outside`,
                 executedText: `You go to the outside of the kitchen.`

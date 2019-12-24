@@ -9,14 +9,14 @@ export let scummBar = {
     `,
     actions: {
         Dock: {
-            name: `The dock`,
+            text: `The dock`,
             Go: {
                 text: `Go back to the dock`,
                 executedText: `You go out of the 'SCUMM BAR'.`
             }
         },
         ScummBarRearRoom: {
-            name: `The curtain`,
+            text: `The curtain`,
             Go: {
                 text: `Go through the curtain`,
                 executedText: `You pass the curtain.`

@@ -193,7 +193,7 @@ class IFGScreen extends PolymerElement {
     ifgActions.innerHTML = "";
     for (let item in place.actions) {
       ifgActions.innerHTML += `
-        <ifg-actions name="${item}" display="${places[item].name}">
+        <ifg-actions name="${item}" display="${place.actions[item].name}">
           ${subAction(place, item)}
         `;
     }

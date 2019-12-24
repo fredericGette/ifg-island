@@ -6,6 +6,7 @@ export let lookoutPoint = {
     actions: {
         Dock:
         {
+            name: `The dock`,
             Go: {
                 text: `Go to the dock`,
                 executedText: `You go to the dock`
